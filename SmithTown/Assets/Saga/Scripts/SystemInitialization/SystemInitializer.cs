@@ -5,7 +5,7 @@ namespace Saga.SystemInitialization
     public static class SystemInitializer
     {
         public const string MessagePrefix = "[SystemInitialization] ";
-        public const string FolderName = "Singletons";
+        public const string FolderName = "Systems";
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         private static void Initialization()
