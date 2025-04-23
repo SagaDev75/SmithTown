@@ -17,7 +17,7 @@ namespace Saga.SystemInitialization
             }
             else
             {
-                Debug.Log(SystemInitializer.MessagePrefix + "Attempting to initialize a duplicate system: " + typeof(T).Name);
+                Debug.Log(SystemInitializer.Code + " Attempting to initialize a duplicate system: " + typeof(T).Name);
                 Destroy(gameObject);
             }
         }
