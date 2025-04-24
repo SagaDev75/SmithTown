@@ -1,0 +1,2314 @@
+fileFormatVersion: 2
+guid: 49a08549984a7414d9aea76a49f47d5e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ResourceIcons 2_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 861
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42028250091c7db4aaae8454439b40df
+      internalID: -1017194382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 861
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9bb7a687959494a886fa05906ed4f4
+      internalID: -1603461788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 861
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cea42294887d14995b60658d02f58b
+      internalID: -279416682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon Money
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 861
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72a380bb21d1ef40bb397cd6410ab49
+      internalID: 1482064713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 861
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb825f1d0165444aa414730ddb222c2
+      internalID: -40180081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 861
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2790772c7e9e77f4684e84ac1633ff45
+      internalID: -975517470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_6
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 861
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd15a0c386f0427498f068640948cae5
+      internalID: -2013399607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_7
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 861
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0ae07d0bdb8e24dbf27c6b7eb8a6c7
+      internalID: -1521895864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_8
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 861
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7354c8ad17c3a9c40a49806d00ca3bc6
+      internalID: -1578512854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_9
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 861
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279db6e10132f3544b5d0328ed153b7a
+      internalID: 1499313072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 769
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bdb309359e8104da0c5d9cddd9cd6b
+      internalID: -162317053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 769
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81075ef2de4d24f47a4634eb4b5f0a9d
+      internalID: -1729044022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 769
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b0aec82e18e11499eef4eaa7c432fa
+      internalID: -275659821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 769
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3317b7fff40b84ca1d53a659ff855e
+      internalID: -1630885460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 769
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61282d92aa475e149b16b4c238347b8a
+      internalID: -2010121478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_15
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 769
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae39f94799fde194493cc41a2879c98b
+      internalID: 391424557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_16
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 769
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe74cad599ccc1419f8245a4a30e4b3
+      internalID: -731589408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_17
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 769
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1100a806bb46784a9c30c8b385d3b86
+      internalID: 1622259307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_18
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 769
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61887a57f2e19d84795d1622ee030832
+      internalID: 278808204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_19
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 769
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb00d1e6594cd9499b82dbd5af9c7f4
+      internalID: 219847289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 677
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2891ba449b36641a09172cf9241f35
+      internalID: -950339559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_21
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 677
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c3c789e6755eb4ea569dc3f9067a47
+      internalID: -1706362671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_22
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 677
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f22dc656ff0d747bcb78defddc6a82
+      internalID: -614397840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_23
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 677
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dfb21707126794fbe145d61d1fa69f
+      internalID: 601361948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_24
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 677
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93efa8bcb7b9b541a170ae55f4bb63c
+      internalID: -1007971921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_25
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 677
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9cf73dd1b6b344b81be15ade343403
+      internalID: 1906206388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_26
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 677
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4648003ce74ef674cbc56db4cc8618ba
+      internalID: -110005366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_27
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 677
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ad16ecda1b62042a7e8cb9afcee6f1
+      internalID: -1953556885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_28
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 677
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53de6634d9bf6dd48b8a7722470c73fd
+      internalID: 901177408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_29
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 677
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488ada4d64f815a4caf9e87911eaaa12
+      internalID: 1630107583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 585
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3ccf845663fc94db0879361c277238
+      internalID: 1579539241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_31
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 585
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa3214ef2f740446a03b8468108098f
+      internalID: -1185228085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_32
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 585
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03455e83edd57cd4299f45c75581267d
+      internalID: 1827641889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_33
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 585
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0417f815e8e923249a8a70ae80107084
+      internalID: -190168101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_34
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 585
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb2e6a04b39ec44186461b27bf032b1
+      internalID: 1431711376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_35
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 585
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc6311b743272842938711afc6f0af7
+      internalID: -912055612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_36
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 585
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c9c31d023bfd8498530818c54a6ab5
+      internalID: 689157527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_37
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 585
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bb07bd864132945a8ecd8204046224
+      internalID: -1553428385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_38
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 585
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7e05b99c762aa45904cf3792af70e5
+      internalID: -1340485585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_39
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 585
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a7324a787be8943842d6f5c6407a24
+      internalID: -1284268720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_40
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 493
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72f7b9490635b24ea8fec966a1a5db5
+      internalID: -1363512379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_41
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 493
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41da6cbc5ce2794082a7310f52cff51
+      internalID: 1200879650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_42
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 493
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89efcfbc54303745ae0c4ed088a9328
+      internalID: -1964405989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_43
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 493
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8604ef82ff85ddc47a4a088bb5d0936d
+      internalID: 1793848871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_44
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 493
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16d9167fa180f84fb16e74227463c5c
+      internalID: 1215736223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_45
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 493
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a8a08bbcec61147bfe44a4565adb53
+      internalID: -1361621696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_46
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 493
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8161d2ae2c5d14479823f707c266f32
+      internalID: -1872259778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_47
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 493
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a80d05047a1b34d9274a1a07b28a0f
+      internalID: 1638915579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_48
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 493
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568d82916b8d78d4dbec570a1ce87734
+      internalID: -427060769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon Water
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 493
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1ce36641585814585108d93fa2b942
+      internalID: 1913120806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_50
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 401
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f2392215b97e84db3617fe623d8609
+      internalID: 729301133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_51
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 401
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd89ddf57a94ea2438b51b90d680d616
+      internalID: 506655858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_52
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 401
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c98d55b97df81479d9557bc2aae64e
+      internalID: -2028998996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_53
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 401
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd6a0dbbc367d24bb303433da3b9a85
+      internalID: -1591246651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_54
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 401
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6151643960f104e4fa1f9c839f051a87
+      internalID: 1758456530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_55
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 401
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bd250c7e1155f47a9b4ec099ccf9d3
+      internalID: -12905079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_56
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 401
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa66fa0a07452f4e9858fbcd120e40e
+      internalID: 1114403859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_57
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 401
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af393d7495356464c9af1a6518c4ba22
+      internalID: 117177174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_58
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 401
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c13c31d62a51104495f731265eb1502
+      internalID: -1294717207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_59
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 401
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6737d94d7a6d973468955b9ca5dd6893
+      internalID: 829990525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 309
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fb528999e0d654e9ce5dd2ff11ea89
+      internalID: 359097488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_61
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 309
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fe956dc5e642a41a4c4d6b6230f261
+      internalID: -659371845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_62
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 309
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613ce822cbef57e46b342ab85ab5c415
+      internalID: -1776680519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_63
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 309
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4afecfaf43f92542a98af368fd62478
+      internalID: 1162477027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_64
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 309
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29147af010638c4bafc2fadbd697906
+      internalID: -143867402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_65
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 309
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5284df368cbc0484da88f58bb7e4912f
+      internalID: -428641501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_66
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 309
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84851193838dc3d49a8523d349980a75
+      internalID: -785691215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_67
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 309
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b25d43f7f9ee142863c673100740bc
+      internalID: 815809866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_68
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 309
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af5229e8cfd6254f98fa8c4bfbbc744
+      internalID: 2146851859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_69
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 309
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c59f3ff83da2446868d328382bf708
+      internalID: 1716042359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_70
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 217
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d6bbbc26b8fe348b867a6ce8f31f97
+      internalID: -305443185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_71
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 217
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c754ecb07f2804792a8e172ad59ed9
+      internalID: 1909408501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_72
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 217
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c025e92633c1cca498d45028215fdf88
+      internalID: -1583083024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_73
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 217
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c3b933495303746a7b3c4c94b9e1ca
+      internalID: -1252806033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_74
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 217
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a405f42580d58244f9e1dacea4c18f6a
+      internalID: -1493934861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_75
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 217
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30155c47ad99eeb4184fe0cbd58badf1
+      internalID: -656135899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_76
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 217
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcbda14d2cf1a54882c1ea81031a3d0
+      internalID: -1594147583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_77
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 217
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f362b98d9f0f5745947b67b3fe92ff6
+      internalID: -1639812605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_78
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 217
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d547672262ff84386288159d371af3
+      internalID: -146715473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_79
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 217
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309bffb4ea8ccbb4b953ed9cbc42fc9d
+      internalID: 958318941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 125
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f42d05a698dc14fbd72d854eee0bf3
+      internalID: -1419868127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_81
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 125
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150b8db3a33ae654cbc586c3316320c5
+      internalID: -1238535160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_82
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 125
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e0765c1cb77a04eba5cccb68c3c7f4
+      internalID: 632574545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_83
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 125
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2722dd0ed1145ea4badc962e4283cd0c
+      internalID: -837804316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_84
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 125
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb3257263a60d24b9e47b2b15c5741c
+      internalID: 836725318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_85
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 125
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56aa1da3e2ac404ca1080c1a9e605bf
+      internalID: -1934427533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_86
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 125
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c726ad1baccc8941b421fd5eaa4c4fd
+      internalID: 23082452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_87
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 125
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b51370f7e6e13428168a8e7d3bc258
+      internalID: -134562032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_88
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 125
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9c6e0f31520004ab05de5dd6822ef5
+      internalID: -1021953640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_89
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 125
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e886c7d11b38b14caff3fdde1e2941b
+      internalID: 109575309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_90
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 33
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba50bdcc3eebb0d4b8c6299e3d644338
+      internalID: 1598713784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_91
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 33
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f27c844730add742a03c77176cd359c
+      internalID: 214698572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_92
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 33
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7c4adf02390074bb0d3fc2cd2c82b3
+      internalID: 2135302939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_93
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 33
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fb1e9dcdd32184c9cb8a1ec3fb9e22
+      internalID: -888073774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_94
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 33
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f8166fcca1b8c48bd36af7710fbbd1
+      internalID: 1977201266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_95
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 33
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134a1ce316b5d1d42af37cb63f3db6d0
+      internalID: -1309910779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_96
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 33
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219836de80083c5409c5d6952efcded3
+      internalID: 1426651904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_97
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 33
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51f2041eac6ccd4bb2faced0114a84f
+      internalID: 639521981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_98
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 33
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52bae0b38e58ed42a9740871843dd27
+      internalID: 616526668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResourceIcons 2_99
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 33
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2670380993dec654aa849b9e92997926
+      internalID: -425841728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Icon Money: 1482064713
+      Icon Water: 1913120806
+      ResourceIcons 2_0: -1017194382
+      ResourceIcons 2_1: -1603461788
+      ResourceIcons 2_10: -162317053
+      ResourceIcons 2_11: -1729044022
+      ResourceIcons 2_12: -275659821
+      ResourceIcons 2_13: -1630885460
+      ResourceIcons 2_14: -2010121478
+      ResourceIcons 2_15: 391424557
+      ResourceIcons 2_16: -731589408
+      ResourceIcons 2_17: 1622259307
+      ResourceIcons 2_18: 278808204
+      ResourceIcons 2_19: 219847289
+      ResourceIcons 2_2: -279416682
+      ResourceIcons 2_20: -950339559
+      ResourceIcons 2_21: -1706362671
+      ResourceIcons 2_22: -614397840
+      ResourceIcons 2_23: 601361948
+      ResourceIcons 2_24: -1007971921
+      ResourceIcons 2_25: 1906206388
+      ResourceIcons 2_26: -110005366
+      ResourceIcons 2_27: -1953556885
+      ResourceIcons 2_28: 901177408
+      ResourceIcons 2_29: 1630107583
+      ResourceIcons 2_30: 1579539241
+      ResourceIcons 2_31: -1185228085
+      ResourceIcons 2_32: 1827641889
+      ResourceIcons 2_33: -190168101
+      ResourceIcons 2_34: 1431711376
+      ResourceIcons 2_35: -912055612
+      ResourceIcons 2_36: 689157527
+      ResourceIcons 2_37: -1553428385
+      ResourceIcons 2_38: -1340485585
+      ResourceIcons 2_39: -1284268720
+      ResourceIcons 2_4: -40180081
+      ResourceIcons 2_40: -1363512379
+      ResourceIcons 2_41: 1200879650
+      ResourceIcons 2_42: -1964405989
+      ResourceIcons 2_43: 1793848871
+      ResourceIcons 2_44: 1215736223
+      ResourceIcons 2_45: -1361621696
+      ResourceIcons 2_46: -1872259778
+      ResourceIcons 2_47: 1638915579
+      ResourceIcons 2_48: -427060769
+      ResourceIcons 2_5: -975517470
+      ResourceIcons 2_50: 729301133
+      ResourceIcons 2_51: 506655858
+      ResourceIcons 2_52: -2028998996
+      ResourceIcons 2_53: -1591246651
+      ResourceIcons 2_54: 1758456530
+      ResourceIcons 2_55: -12905079
+      ResourceIcons 2_56: 1114403859
+      ResourceIcons 2_57: 117177174
+      ResourceIcons 2_58: -1294717207
+      ResourceIcons 2_59: 829990525
+      ResourceIcons 2_6: -2013399607
+      ResourceIcons 2_60: 359097488
+      ResourceIcons 2_61: -659371845
+      ResourceIcons 2_62: -1776680519
+      ResourceIcons 2_63: 1162477027
+      ResourceIcons 2_64: -143867402
+      ResourceIcons 2_65: -428641501
+      ResourceIcons 2_66: -785691215
+      ResourceIcons 2_67: 815809866
+      ResourceIcons 2_68: 2146851859
+      ResourceIcons 2_69: 1716042359
+      ResourceIcons 2_7: -1521895864
+      ResourceIcons 2_70: -305443185
+      ResourceIcons 2_71: 1909408501
+      ResourceIcons 2_72: -1583083024
+      ResourceIcons 2_73: -1252806033
+      ResourceIcons 2_74: -1493934861
+      ResourceIcons 2_75: -656135899
+      ResourceIcons 2_76: -1594147583
+      ResourceIcons 2_77: -1639812605
+      ResourceIcons 2_78: -146715473
+      ResourceIcons 2_79: 958318941
+      ResourceIcons 2_8: -1578512854
+      ResourceIcons 2_80: -1419868127
+      ResourceIcons 2_81: -1238535160
+      ResourceIcons 2_82: 632574545
+      ResourceIcons 2_83: -837804316
+      ResourceIcons 2_84: 836725318
+      ResourceIcons 2_85: -1934427533
+      ResourceIcons 2_86: 23082452
+      ResourceIcons 2_87: -134562032
+      ResourceIcons 2_88: -1021953640
+      ResourceIcons 2_89: 109575309
+      ResourceIcons 2_9: 1499313072
+      ResourceIcons 2_90: 1598713784
+      ResourceIcons 2_91: 214698572
+      ResourceIcons 2_92: 2135302939
+      ResourceIcons 2_93: -888073774
+      ResourceIcons 2_94: 1977201266
+      ResourceIcons 2_95: -1309910779
+      ResourceIcons 2_96: 1426651904
+      ResourceIcons 2_97: 639521981
+      ResourceIcons 2_98: 616526668
+      ResourceIcons 2_99: -425841728
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
