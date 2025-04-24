@@ -11,8 +11,8 @@ namespace Saga.GameStateService
         private const string Code = "[GSM]";
 
         private IGameState _currentState;
-        private readonly List<IGameState> QueueList = new();
-        private readonly HashSet<IGameState> QueueHashSet = new();
+        private readonly List<IGameState> _queueList = new();
+        private readonly HashSet<IGameState> _queueHashSet = new();
         
         public static IGameState CurrentState
         {
@@ -44,7 +44,7 @@ namespace Saga.GameStateService
             {
                 if (CurrentState != null) value(CurrentState, GameStatePhase.Activation);
                 
-                foreach (var state in Singleton.QueueList)
+                foreach (var state in Singleton._queueList)
                 {
                     value(state, GameStatePhase.Registration);
                 }
@@ -81,13 +81,13 @@ namespace Saga.GameStateService
         }
         private static void ChangeCurrentState()
         {
-            if (Singleton.QueueList.Count == 0)
+            if (Singleton._queueList.Count == 0)
             {
                 CurrentState = null;
                 return;
             }
             
-            var nextState = Singleton.QueueList[^1];
+            var nextState = Singleton._queueList[^1];
             CheckStateNullException(nextState, "The state was destroyed but not removed from the queue");
             CurrentState = nextState;
         }
@@ -96,16 +96,16 @@ namespace Saga.GameStateService
         {
             CheckStateNullException(gameState);
             
-            if (!Singleton.QueueHashSet.Add(gameState)) return false;
-            Singleton.QueueList.Add(gameState);
+            if (!Singleton._queueHashSet.Add(gameState)) return false;
+            Singleton._queueList.Add(gameState);
             return true;
         }
         private static bool TryRemoveStateFromQueue(IGameState gameState)
         {
             CheckStateNullException(gameState);
             
-            return Singleton.QueueHashSet.Remove(gameState) 
-                   && Singleton.QueueList.Remove(gameState);
+            return Singleton._queueHashSet.Remove(gameState) 
+                   && Singleton._queueList.Remove(gameState);
         }
 
         private static string BuildMessage(string message)
