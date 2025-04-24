@@ -9,7 +9,7 @@ namespace Saga.UIBehaviour.Buttons
     {
         [SerializeField] private UnityEvent onButtonNormal;
         [SerializeField] private UnityEvent onButtonHighlighted;
-        [SerializeField] private UnityEvent onButtonReleased;
+        [SerializeField] private UnityEvent onButtonPressed;
 
         [field: SerializeField, HideInInspector] public Button Button { get; private set; }
         
@@ -21,9 +21,9 @@ namespace Saga.UIBehaviour.Buttons
         {
             onButtonHighlighted.Invoke();
         }
-        public void OnButtonReleasedInvoke()
+        public void OnButtonPressedInvoke()
         {
-            onButtonReleased.Invoke();
+            onButtonPressed.Invoke();
         }
 
         private void OnValidate()
