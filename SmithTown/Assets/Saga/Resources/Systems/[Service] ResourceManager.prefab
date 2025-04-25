@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5788486621896516992
+--- !u!1 &4268465503879913965
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2585304725651034052}
-  - component: {fileID: 8276061251462193667}
+  - component: {fileID: 2205120232250811341}
+  - component: {fileID: 6675104268756542343}
   m_Layer: 0
-  m_Name: '[Service] AudioSettingsReader'
+  m_Name: '[Service] ResourceManager'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!4 &2585304725651034052
+--- !u!4 &2205120232250811341
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5788486621896516992}
+  m_GameObject: {fileID: 4268465503879913965}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -32,16 +32,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8276061251462193667
+--- !u!114 &6675104268756542343
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5788486621896516992}
+  m_GameObject: {fileID: 4268465503879913965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 826a50680b240fb439062e82e24c3ed1, type: 3}
+  m_Script: {fileID: 11500000, guid: a698687a552cf4d45b4b0926837cd583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: da81b524324ac204e90fda806c7a2a9c, type: 2}

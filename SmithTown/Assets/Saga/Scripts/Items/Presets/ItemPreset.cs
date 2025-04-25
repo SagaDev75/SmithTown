@@ -6,6 +6,11 @@ namespace Saga.Items.Presets
     public class ItemPreset : ScriptableObject
     {
         [field: SerializeField] public Sprite Icon { get; private set; }
+
+        public static implicit operator string(ItemPreset item)
+        {
+            return item.name;
+        }
     }
 }
 
