@@ -129,7 +129,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 29
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -278,44 +278,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3786753637639171213, guid: 4768066119c549f4fb7e2cbc20e1b685, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 9036819082264622716}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4768066119c549f4fb7e2cbc20e1b685, type: 3}
 --- !u!224 &804943920720240447 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 449210516765392885, guid: 4768066119c549f4fb7e2cbc20e1b685, type: 3}
   m_PrefabInstance: {fileID: 941347631396315338}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1363128957495029058 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2304321553103474056, guid: 4768066119c549f4fb7e2cbc20e1b685, type: 3}
-  m_PrefabInstance: {fileID: 941347631396315338}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4151499652173057095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &4151499652173057095 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3786753637639171213, guid: 4768066119c549f4fb7e2cbc20e1b685, type: 3}
-  m_PrefabInstance: {fileID: 941347631396315338}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &9036819082264622716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4151499652173057095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f761133087bf1240b96489075c7e086, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixer: {fileID: 24100000, guid: da81b524324ac204e90fda806c7a2a9c, type: 2}
-  slider: {fileID: 1363128957495029058}
-  parameterName: Master

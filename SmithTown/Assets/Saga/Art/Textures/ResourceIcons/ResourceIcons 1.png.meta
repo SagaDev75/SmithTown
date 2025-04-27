@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_18
+      name: Coal
       rect:
         serializedVersion: 2
         x: 746
@@ -727,11 +727,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_30
+      name: Log
       rect:
         serializedVersion: 2
         x: 10
-        y: 556
+        y: 557
         width: 84
         height: 84
       alignment: 0
@@ -748,7 +748,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_31
+      name: Brach
       rect:
         serializedVersion: 2
         x: 102
@@ -1000,7 +1000,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_43
+      name: Metal
       rect:
         serializedVersion: 2
         x: 286
@@ -1021,7 +1021,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_44
+      name: Metal ore
       rect:
         serializedVersion: 2
         x: 378
@@ -1105,7 +1105,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_48
+      name: huj
       rect:
         serializedVersion: 2
         x: 746
@@ -1126,11 +1126,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_49
+      name: hj
       rect:
         serializedVersion: 2
-        x: 838
-        y: 464
+        x: 839
+        y: 460
         width: 84
         height: 84
       alignment: 0
@@ -1210,7 +1210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_53
+      name: Gold
       rect:
         serializedVersion: 2
         x: 286
@@ -1231,7 +1231,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_54
+      name: Gold ore
       rect:
         serializedVersion: 2
         x: 378
@@ -1315,7 +1315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_58
+      name: Copper
       rect:
         serializedVersion: 2
         x: 746
@@ -1336,7 +1336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_59
+      name: Copper ore
       rect:
         serializedVersion: 2
         x: 838
@@ -1424,7 +1424,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 286
-        y: 280
+        y: 281
         width: 84
         height: 84
       alignment: 0
@@ -1525,7 +1525,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_68
+      name: Titan
       rect:
         serializedVersion: 2
         x: 746
@@ -1546,7 +1546,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ResourceIcons 1_69
+      name: Titan ore
       rect:
         serializedVersion: 2
         x: 838
@@ -2207,6 +2207,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Brach: -33558096
+      Coal: -1797856841
+      Copper: -913968047
+      Copper ore: 1183106354
+      Gold: -747622577
+      Gold ore: 1976820602
+      Log: -422026270
+      Metal: -993856687
+      Metal ore: -453612166
       ResourceIcons 1_0: 888424008
       ResourceIcons 1_1: 1241105495
       ResourceIcons 1_10: 791753084
@@ -2217,7 +2226,6 @@ TextureImporter:
       ResourceIcons 1_15: 825667285
       ResourceIcons 1_16: 1484928270
       ResourceIcons 1_17: -283054304
-      ResourceIcons 1_18: -1797856841
       ResourceIcons 1_19: -1267970799
       ResourceIcons 1_2: -313856908
       ResourceIcons 1_20: -1198576428
@@ -2231,8 +2239,6 @@ TextureImporter:
       ResourceIcons 1_28: 2146205445
       ResourceIcons 1_29: -861426026
       ResourceIcons 1_3: -159124407
-      ResourceIcons 1_30: -422026270
-      ResourceIcons 1_31: -33558096
       ResourceIcons 1_32: -1681073074
       ResourceIcons 1_33: -2113150760
       ResourceIcons 1_34: 1462007928
@@ -2245,24 +2251,16 @@ TextureImporter:
       ResourceIcons 1_40: -1201624010
       ResourceIcons 1_41: 550104616
       ResourceIcons 1_42: -2121349503
-      ResourceIcons 1_43: -993856687
-      ResourceIcons 1_44: -453612166
       ResourceIcons 1_45: -560131346
       ResourceIcons 1_46: 879047615
       ResourceIcons 1_47: -2068057775
-      ResourceIcons 1_48: -1483815775
-      ResourceIcons 1_49: -1417041152
       ResourceIcons 1_5: 409518011
       ResourceIcons 1_50: -2144374726
       ResourceIcons 1_51: 217208192
       ResourceIcons 1_52: -1241689169
-      ResourceIcons 1_53: -747622577
-      ResourceIcons 1_54: 1976820602
       ResourceIcons 1_55: -1851533495
       ResourceIcons 1_56: 1716013749
       ResourceIcons 1_57: 1011816222
-      ResourceIcons 1_58: -913968047
-      ResourceIcons 1_59: 1183106354
       ResourceIcons 1_6: -1099109361
       ResourceIcons 1_60: -1122690808
       ResourceIcons 1_61: 277496992
@@ -2272,8 +2270,6 @@ TextureImporter:
       ResourceIcons 1_65: -1882169749
       ResourceIcons 1_66: -1809825986
       ResourceIcons 1_67: -520939750
-      ResourceIcons 1_68: -1503831113
-      ResourceIcons 1_69: -427146784
       ResourceIcons 1_7: 2023700915
       ResourceIcons 1_70: -769805033
       ResourceIcons 1_71: 837219488
@@ -2307,6 +2303,10 @@ TextureImporter:
       ResourceIcons 1_97: -552357652
       ResourceIcons 1_98: 157245631
       ResourceIcons 1_99: 1585790834
+      Titan: -1503831113
+      Titan ore: -427146784
+      hj: -1417041152
+      huj: -1483815775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

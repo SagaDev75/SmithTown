@@ -12,15 +12,6 @@ namespace Saga.UIBehaviour.MainMenu
         {
             UnregisterSelf();
         }
-
-        protected override void OnStateActivation()
-        {
-            gameObject.SetActive(true);
-        }
-        protected override void OnStateDeactivation()
-        {
-            gameObject.SetActive(false);
-        }
     }
 }
 

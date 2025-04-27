@@ -11,15 +11,24 @@ namespace Saga.GameTickService
         private Coroutine _tickRoutine;
         
         public static event Action GameTick;
-        
         public static float TickInterval => Singleton.tickInterval;
 
-        public void OnEnable()
+        public static bool Mode
+        {
+            get => Singleton.enabled;
+            set
+            {
+                if(Singleton == null) return;
+                Singleton.enabled = value;
+            }
+        }
+
+        private void OnEnable()
         {
             if(_tickRoutine != null) StopCoroutine(_tickRoutine);
             _tickRoutine = StartCoroutine(InvokeTick());
         }
-        public void OnDisable()
+        private void OnDisable()
         {
             if (_tickRoutine != null)
             {

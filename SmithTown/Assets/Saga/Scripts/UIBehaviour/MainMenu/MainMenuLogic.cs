@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using Saga.GameSession.Session;
 using Saga.GameSession.Settings;
 using Saga.UIBehaviour.SceneLoadScreen;
 using Saga.UIBehaviour.SettingsMenu;
@@ -23,7 +24,7 @@ namespace Saga.UIBehaviour.MainMenu
                 () => Task.Delay(200), 
                 () => Task.Delay(500), 
                 () => Task.Delay(100),
-                UserSettingsLoader.Load, 
+                SessionDataLoader.Load, 
                 () => Task.Delay(100), 
                 () => Task.Delay(150), 
                 () => Task.Delay(200),

@@ -1,7 +1,12 @@
+using System;
+using Saga.ResourceSystem;
+
 namespace Saga.GameSession.Session
 {
-    public struct SessionData
+    [Serializable]
+    public class SessionData
     {
-        
+        public int sceneIndex;
+        public ResourceSave[] resources;
     }
 }

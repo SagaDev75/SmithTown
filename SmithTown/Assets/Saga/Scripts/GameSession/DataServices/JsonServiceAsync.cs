@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Saga.GameSession.DataServices.Serializers;
+using UnityEngine;
 
 namespace Saga.GameSession.DataServices
 {
@@ -35,8 +36,11 @@ namespace Saga.GameSession.DataServices
         {
             var fileLocation = AdaptPath(path);
 
-            if (!File.Exists(fileLocation)) 
-                throw new IOException($"The file `{fileLocation}` does not exist and cannot be loaded.");
+            if (!File.Exists(fileLocation))
+            {
+                Debug.LogWarning($"The file `{fileLocation}` does not exist and cannot be loaded.");
+                return default(T);
+            }
 
             var json = await File.ReadAllTextAsync(fileLocation);
             return _serializer.Deserialize<T>(json);

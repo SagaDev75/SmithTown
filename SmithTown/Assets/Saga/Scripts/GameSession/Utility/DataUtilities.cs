@@ -4,6 +4,6 @@ namespace Saga.GameSession.Utilities
 {
     public class DataUtilities : MonoBehaviour
     {
-        public const string DataFolder = "SmithTown";
+        public static readonly string DataFolder = Application.persistentDataPath + "/SmithTown";
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Saga.SystemInitialization;
 using UnityEngine;
 
@@ -9,6 +10,8 @@ namespace Saga.SystemInitialization
         where TSelf : MonoStorage<TSelf, TAsset>
         where TAsset : Object
     {
+        [SerializeField] private TAsset[] assets;
+        
         public virtual string FolderName { get; }
 
         private readonly Dictionary<string, TAsset> _innerStorage = new();
@@ -23,6 +26,8 @@ namespace Saga.SystemInitialization
                 
                 Debug.LogWarning($"Failed to load asset: {preset.name}. Asset Name already exists!");
             }
+
+            assets = Singleton._innerStorage.Values.ToArray();
         }
     }
 }
