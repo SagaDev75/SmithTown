@@ -139,7 +139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon set 1_2
+      name: Plug
       rect:
         serializedVersion: 2
         x: 34
@@ -363,12 +363,12 @@ TextureImporter:
       Gear: 560433145
       Home: 2046306260
       Icon set 1_1: 769672177
-      Icon set 1_2: -938816330
       Icon set 1_9: -569161257
       Minus: 840285225
       Mute: 554132538
       Pause: -573599588
       Play: -1554173269
+      Plug: -938816330
       Plus: -866513484
       Sound: 1897740056
   mipmapLimitGroupName: 

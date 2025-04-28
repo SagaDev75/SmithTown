@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 namespace Saga.BuildingSystem.Buildings
@@ -7,10 +7,17 @@ namespace Saga.BuildingSystem.Buildings
     public class BuildingBranch : ScriptableObject
     {
         [SerializeField] private BuildingPreset[] buildingLevels;
-
-        public BuildingPreset GetBuildingPreset(int level)
+        
+        public bool TryGetPreset(int level, out BuildingPreset result)
         {
-            return buildingLevels[level];
+            if (level >= 0 && level < buildingLevels.Length)
+            {
+                result = buildingLevels[level];
+                return true;
+            }
+
+            result = null;
+            return false;
         }
     }
 }

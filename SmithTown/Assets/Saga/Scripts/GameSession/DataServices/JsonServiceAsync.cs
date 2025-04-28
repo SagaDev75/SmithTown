@@ -31,6 +31,8 @@ namespace Saga.GameSession.DataServices
             }
             
             await File.WriteAllTextAsync(fileLocation, _serializer.Serialize(obj));
+            
+            Debug.Log($"The File `{fileLocation}` has been saved.");
         }
         public async Task<T> Load<T>(string path)
         {
@@ -43,6 +45,7 @@ namespace Saga.GameSession.DataServices
             }
 
             var json = await File.ReadAllTextAsync(fileLocation);
+            Debug.Log($"The file `{fileLocation}` has been loaded.");
             return _serializer.Deserialize<T>(json);
         }
         public void Delete(string path)
@@ -53,6 +56,8 @@ namespace Saga.GameSession.DataServices
                 throw new IOException($"The file `{fileLocation}` does not exist and cannot be deleted.");
             
             File.Delete(fileLocation);
+            
+            Debug.Log($"The File `{fileLocation}` has been deleted.");
         }
 
         public bool CheckExists(string path)

@@ -1,23 +1,23 @@
 using Saga.ResourceSystem;
-using Saga.UIBehaviour.Resource;
+using Saga.Tutorial;
+using Saga.UIBehaviour.ItemGroupBehaviour;
 using UnityEngine;
 
 namespace Saga.UIBehaviour.TutorialScreen
 {
     public class TutorialScreenLogic : MonoBehaviour
     {
-        [SerializeField] private ResourceGroup group;
-        [SerializeField] private ResourceInfo[] rewards;
+        [SerializeField] private ItemUIGroup group;
 
         private void Awake()
         {
-            group.Show(rewards);
+            group.ShowItems(TutorialManager.TutorialResources);
         }
 
         public void CloseScreen()
         {
-            ResourceManager.AddResources(rewards);
-            
+            ResourceManager.AddResources(TutorialManager.TutorialResources);
+            TutorialManager.completed = true;
             Destroy(gameObject);
         }
     }

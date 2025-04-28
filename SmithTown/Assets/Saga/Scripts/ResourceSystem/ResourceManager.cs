@@ -4,10 +4,11 @@ using System.Linq;
 using Saga.GameSession.Session;
 using Saga.Items.Presets;
 using Saga.SystemInitialization;
+using UnityEngine;
 
 namespace Saga.ResourceSystem
 {
-    public class ResourceManager : MonoSingleton<ResourceManager>
+    public class ResourceManager : MonoSessionService<ResourceManager>
     {
         private readonly Dictionary<string, ResourceData> _resources = new();
         public static IReadOnlyDictionary<string, ResourceData> Resources => Singleton._resources;
@@ -16,47 +17,83 @@ namespace Saga.ResourceSystem
         {
             Singleton._resources.Clear();
         }
-        public static void AddResources(params ResourceInfo[] infos)
+        public static bool ProcessResources(Func<ResourceInfo, ResourceData, bool> processIfExist, Func<ResourceInfo, bool> processIfNotExist, params ResourceInfo[] infos)
         {
             foreach (var info in infos)
             {
-                InnerAddResource(info);
+                if (Resources.TryGetValue(info, out var resourceData))
+                {
+                    if (!processIfExist(info, resourceData))
+                        return false;
+                }
+                else
+                {
+                    if (!processIfNotExist(info))
+                        return false;
+                }
             }
+            return true;
+        }
+        public static void AddResources(params ResourceInfo[] infos)
+        {
+            InnerAddResources(infos);
         }
         public static void AddResources(params ResourceSave[] saves)
         {
-            foreach (var save in saves)
-            {
-                var info = new ResourceInfo(ResourcePresetStorage.Storage[save.ResourceName], save.ResourceAmount);
-                InnerAddResource(info);
-            }
+            InnerAddResources(saves.Select(save => new ResourceInfo(ResourcePresetStorage.Storage[save.ResourceKey], save.ResourceAmount)).ToArray());
+        }
+        public static bool CheckResources(params ResourceInfo[] infos)
+        {
+            return ProcessResources(
+                (info, data) => data.CheckAmount(info.Amount),
+                _ => false,
+                infos);
+        }
+        public static bool TrySpendResources(params ResourceInfo[] infos)
+        {
+            if (!CheckResources(infos)) return false;
+            
+            return ProcessResources(
+                (info, data) => data.TrySpend(info.Amount),
+                _ => true,
+                infos);
+        }
+        public static void SpendResources(params ResourceInfo[] infos)
+        {
+            ProcessResources(
+                (info, data) =>
+                {
+                    data.Spend(info.Amount);
+                    return true;
+                },
+                _ => true,
+                infos);
         }
 
-        private static void OnDataUpdating(SessionData data)
+        protected override void OnDataUpdating(SessionData data)
         {
             DropAllResources();
             AddResources(data.resources);
         }
-        private static void OnDataCollecting(SessionData data)
+        protected override void OnDataCollecting(SessionData data)
         {
             data.resources = Resources.Values.Select(resource => new ResourceSave(resource)).ToArray();
         }
-        private static void InnerAddResource(ResourceInfo info)
+        private static void InnerAddResources(params ResourceInfo[] infos)
         {
-            if (Resources.TryGetValue(info, out var resourceData))
-            {
-                resourceData.Increase(info.Amount);
-                return;
-            }
-            
-            resourceData = new ResourceData(info);
-            Singleton._resources[info] = resourceData;
-        }
-
-        private void Start()
-        {
-            SessionDataController.OnDataCollecting += OnDataCollecting;
-            SessionDataController.OnDataUpdating += OnDataUpdating;
+            ProcessResources(
+                (info, data) =>
+                {
+                    data.Increase(info.Amount);
+                    return true;
+                },
+                info =>
+                {
+                    var data = new ResourceData(info);
+                    Singleton._resources[data.Key] = data;
+                    return true;
+                }, 
+                infos);
         }
     }
 }

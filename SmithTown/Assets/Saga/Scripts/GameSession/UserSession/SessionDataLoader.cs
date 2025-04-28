@@ -28,8 +28,8 @@ namespace Saga.GameSession.Session
             OnPhase?.Invoke(DataPhase.BeforeLoading);
             
             var data = await DataService.Load<SessionData>(DataUtilities.DataFolder + Path);
+            if(data != null) SessionDataController.UpdateData(data);
             
-            SessionDataController.UpdateData(data);
             OnPhase?.Invoke(DataPhase.AfterLoading);
         }
         public static async Task Save()

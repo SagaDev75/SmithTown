@@ -6,21 +6,15 @@ namespace Saga.ResourceSystem
     [Serializable]
     public struct ResourceSave
     {
-        [SerializeField] private string name;
+        [SerializeField] private string key;
         [SerializeField] private int amount;
         
-        public string ResourceName => name;
+        public string ResourceKey => key;
         public int ResourceAmount => amount;
-        
-        public ResourceSave(ResourceData resourceData)
-        {
-            name = resourceData.Name;
-            amount = resourceData.Count;
-        }
         
         public ResourceSave(ResourceInfo info)
         {
-            name = info.Preset.name;
+            key = info.Preset.name;
             amount = info.Amount;
         }
     }

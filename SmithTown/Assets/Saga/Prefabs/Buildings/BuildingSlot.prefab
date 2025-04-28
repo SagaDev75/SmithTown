@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   guid: db540cae-cbb6-4846-b4f0-46b76f486bee
-  settingsScreen: {fileID: 8598938474471981802, guid: 7ed666f8734222c498b250a4833a533e, type: 3}
+  settingsScreen: {fileID: 5284496059252911400, guid: 7ed666f8734222c498b250a4833a533e, type: 3}
   selectScreen: {fileID: 8211826993798300083, guid: cfa9cfa6b29292340b71905e202b7f3e, type: 3}
   prefabContainer: {fileID: 2791717919756051842}
 --- !u!1 &4067342153271764083

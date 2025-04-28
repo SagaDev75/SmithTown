@@ -10,7 +10,9 @@ namespace Saga.GameTickService
         [SerializeField] private float tickInterval = 1f;
         private Coroutine _tickRoutine;
         
+        public static event Action BeforeTick;
         public static event Action GameTick;
+        public static event Action AfterTick;
         public static float TickInterval => Singleton.tickInterval;
 
         public static bool Mode
@@ -42,7 +44,9 @@ namespace Saga.GameTickService
             while (true)
             {
                 yield return new WaitForSeconds(tickInterval);
+                BeforeTick?.Invoke();
                 GameTick?.Invoke();
+                AfterTick?.Invoke();
             }
         }
     } 
