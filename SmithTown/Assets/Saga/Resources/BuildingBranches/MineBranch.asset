@@ -15,4 +15,3 @@ MonoBehaviour:
   buildingLevels:
   - {fileID: 11400000, guid: 59ab4ed0ce562004481dab7fa1a70b1f, type: 2}
   - {fileID: 11400000, guid: 6faa621e1df424249b52f28be3f0c341, type: 2}
-  - {fileID: 11400000, guid: 7f328829e54e4454bac5c8a4de8e8c03, type: 2}

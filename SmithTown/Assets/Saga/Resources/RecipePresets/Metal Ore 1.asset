@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Metal Ore 1
   m_EditorClassIdentifier: 
   duration: 30
-  price: []
+  price:
+  - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
+    amount: 1
   reward:
   - preset: {fileID: 11400000, guid: 5cebfc9a43f0c4c42b277523abbae4f1, type: 2}
     amount: 1

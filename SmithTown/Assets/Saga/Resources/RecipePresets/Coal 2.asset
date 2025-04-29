@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Coal 2
   m_EditorClassIdentifier: 
   duration: 7
-  price: []
+  price:
+  - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
+    amount: 1
   reward:
   - preset: {fileID: 11400000, guid: ed01aeb185cdd1148bfddc5fb652e79a, type: 2}
     amount: 2

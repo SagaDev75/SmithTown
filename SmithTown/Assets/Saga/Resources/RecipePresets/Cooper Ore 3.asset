@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Cooper Ore 3
   m_EditorClassIdentifier: 
   duration: 30
-  price: []
+  price:
+  - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
+    amount: 1
   reward:
   - preset: {fileID: 11400000, guid: cdcae697574aaaf4d8a54fda88f54574, type: 2}
     amount: 3

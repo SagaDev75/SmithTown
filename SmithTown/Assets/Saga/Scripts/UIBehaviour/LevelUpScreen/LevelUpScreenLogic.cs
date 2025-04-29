@@ -2,6 +2,7 @@ using Saga.ProgressSystem;
 using Saga.SceneService;
 using Saga.UIBehaviour.ItemGroupBehaviour;
 using Saga.UIBehaviour.Utilities;
+using TMPro;
 using UnityEngine;
 
 namespace Saga.UIBehaviour.LevelUpScreen
