@@ -20,6 +20,8 @@ namespace Saga.SystemInitialization
         {
             var presets = Resources.LoadAll<TAsset>(FolderName);
 
+            _innerStorage.TryAdd("", null);
+            
             foreach (var preset in presets)
             {
                 if(_innerStorage.TryAdd(preset.name, preset)) continue;
