@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01ae6e2af056b349bd923e98c39ac53, type: 3}
+  m_Name: ForgeBranch
+  m_EditorClassIdentifier: 
+  buildingLevels:
+  - {fileID: 11400000, guid: 25fb210cb81d06640b4b45043b6ef83e, type: 2}
+  - {fileID: 11400000, guid: 240b992f9f6969948a021b59d8d21d91, type: 2}
+  - {fileID: 11400000, guid: 7d3f35d7577956746acda2a37dd7ee91, type: 2}

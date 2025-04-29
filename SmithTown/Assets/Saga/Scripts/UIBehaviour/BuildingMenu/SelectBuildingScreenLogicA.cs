@@ -3,13 +3,14 @@ using Saga.BuildingSystem;
 using Saga.BuildingSystem.Buildings;
 using Saga.UIBehaviour.Utilities;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Saga.UIBehaviour.SelectBuildingScreen
 {
-    public class SelectBuildingScreenLogic : ScreenLogic
+    public class SelectBuildingScreenLogicA : ScreenLogic
     {
         [SerializeField] private Transform widgetContainer;
-        [SerializeField] private SelectBuildingWidget widgetPrefab;
+        [FormerlySerializedAs("widgetPrefab")] [SerializeField] private SelectBuildingWidgetA widgetAPrefab;
 
         public void BuildWidgets(params Action<BuildingInfo>[] actions)
         {
@@ -19,7 +20,7 @@ namespace Saga.UIBehaviour.SelectBuildingScreen
 
                 if (!info.IsUnblocked) continue;
                 
-                var widget = Instantiate(widgetPrefab, widgetContainer);
+                var widget = Instantiate(widgetAPrefab, widgetContainer);
                 widget.SetInfo(info);
                 widget.SetBuyingLogic(actions);
             }

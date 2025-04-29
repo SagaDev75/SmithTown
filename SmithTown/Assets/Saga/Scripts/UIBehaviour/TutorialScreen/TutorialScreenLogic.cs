@@ -17,7 +17,7 @@ namespace Saga.UIBehaviour.TutorialScreen
         public void CloseScreen()
         {
             ResourceManager.AddResources(TutorialManager.TutorialResources);
-            TutorialManager.completed = true;
+            TutorialManager.Completed = true;
             Destroy(gameObject);
         }
     }

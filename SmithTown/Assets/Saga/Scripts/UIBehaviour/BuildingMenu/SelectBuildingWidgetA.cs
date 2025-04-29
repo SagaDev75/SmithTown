@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 namespace Saga.UIBehaviour.SelectBuildingScreen
 {
-    public class SelectBuildingWidget : MonoBehaviour
+    public class SelectBuildingWidgetA : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI textMesh;
         [SerializeField] private Image image;

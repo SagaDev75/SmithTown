@@ -5,7 +5,7 @@ namespace Saga.SystemInitialization
     public class MonoSessionService<T> : MonoSingleton<T>
         where T : MonoSessionService<T>
     {
-        private void Start()
+        protected virtual void Start()
         {
             SessionDataController.OnDataCollecting += OnDataCollecting;
             SessionDataController.OnDataUpdating += OnDataUpdating;
