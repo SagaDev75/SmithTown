@@ -10,15 +10,15 @@ namespace Saga.Tutorial
         [SerializeField] private ResourceInfo[] tutorialResources;
         
         public static ResourceInfo[] TutorialResources => Singleton.tutorialResources;
-        public static bool completed;
+        public static bool Completed { get; set; }
 
         protected override void OnDataCollecting(SessionData data)
         {
-            data.tutorialCompleted = completed;
+            data.tutorialCompleted = Completed;
         }
         protected override void OnDataUpdating(SessionData data)
         {
-            completed = data.tutorialCompleted;
+            Completed = data.tutorialCompleted;
         }
     }
 }

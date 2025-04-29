@@ -9,7 +9,7 @@ namespace Saga.Tutorial
 
         public void Start()
         {
-            if(TutorialManager.completed) return;
+            if(TutorialManager.Completed) return;
             
             Instantiate(tutorialScreenLogic);
         }

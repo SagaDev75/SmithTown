@@ -72,6 +72,12 @@ namespace Saga.SceneService
             else throw new ArgumentException("Invalid scene index");
             return tcs.Task;
         }
+
+        protected override void OnAwake()
+        {
+            base.OnAwake();
+            _currentSceneIndex = firstSceneIndex;
+        }
     }
 }
 
