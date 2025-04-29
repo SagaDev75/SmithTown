@@ -8,10 +8,12 @@ namespace Saga.GameSession.Session
     [Serializable]
     public class SessionData
     {
+        public ProgressInfo progressInfo; //Dont drop it
+        
         public int sceneIndex;
         public bool tutorialCompleted;
-        public ProgressInfo progressInfo;
         public ResourceSave[] resources;
         public SlotInfo[] buildingSlots;
+        public string[] orderKeys;
     }
 }

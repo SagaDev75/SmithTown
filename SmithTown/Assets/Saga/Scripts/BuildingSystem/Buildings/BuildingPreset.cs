@@ -1,6 +1,7 @@
 using System.Linq;
 using Saga.ProgressSystem;
 using Saga.ResourceSystem;
+using Saga.ResourceSystem.Recipes;
 using UnityEngine;
 
 namespace Saga.BuildingSystem.Buildings
@@ -11,9 +12,11 @@ namespace Saga.BuildingSystem.Buildings
         [SerializeField] private Sprite icon;
         [SerializeField] private GameObject prefab;
         [SerializeField] private ResourceInfo[] price;
+        [SerializeField] private RecipePreset[] recipes;
 
         public GameObject Prefab => prefab;
         public ResourceInfo[] Price => price.ToArray(); //copy
-        public Sprite Icon => icon;
+        public override Sprite Icon => icon;
+        public RecipePreset[] Recipes => recipes.ToArray(); //copy
     }
 }

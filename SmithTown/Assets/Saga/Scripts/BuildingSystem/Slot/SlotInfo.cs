@@ -8,6 +8,8 @@ namespace Saga.BuildingSystem.Slot
         public string slotId;
         public string branchKey;
         public int level;
+        public string recipeKey;
+        public int recipeProgress;
     }
 }
 
