@@ -19,3 +19,4 @@ MonoBehaviour:
     amount: 3
   recipes:
   - {fileID: 11400000, guid: d2a0b9e95ae4c8649af47156015f1733, type: 2}
+  - {fileID: 11400000, guid: c22fdd7f19f774f459b0984efb112516, type: 2}

@@ -46,8 +46,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorialResources:
   - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
-    amount: 200
-  - preset: {fileID: 11400000, guid: ed01aeb185cdd1148bfddc5fb652e79a, type: 2}
-    amount: 10
-  - preset: {fileID: 11400000, guid: a6016f425ee346d429382e7a43c1fb0c, type: 2}
     amount: 10

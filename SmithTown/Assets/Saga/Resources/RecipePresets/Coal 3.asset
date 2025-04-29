@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6408ad448266aa749b542f8955d123a7, type: 3}
   m_Name: Coal 3
   m_EditorClassIdentifier: 
-  duration: 3
+  duration: 7
   price: []
   reward:
   - preset: {fileID: 11400000, guid: ed01aeb185cdd1148bfddc5fb652e79a, type: 2}

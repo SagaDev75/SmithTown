@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Wood 2
   m_EditorClassIdentifier: 
   duration: 13
-  price: []
+  price:
+  - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
+    amount: 2
   reward:
   - preset: {fileID: 11400000, guid: a7f18c6dbd37b60458317927bc9f17f2, type: 2}
-    amount: 2
+    amount: 3

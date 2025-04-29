@@ -34,7 +34,7 @@ namespace Saga.ProgressSystem
             foreach (var content in Singleton.levelInfo[level].progressContent)
             {
                 content.Unbloked = true;
-                Debug.Log(content.name);
+                Debug.Log("Content opened: " + content.name);
             }
         }
         private static void RestoreAllProgressContent(int level)

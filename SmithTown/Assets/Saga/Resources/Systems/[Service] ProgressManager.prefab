@@ -48,24 +48,36 @@ MonoBehaviour:
   - nextScene: 0
     ordersToUp: 1
     progressOrders:
-    - {fileID: 11400000, guid: 8849d7722ec27df4692c50598ecba2c3, type: 2}
+    - {fileID: 11400000, guid: 8e544f2f0d3d4ef428f0234530b66357, type: 2}
     progressContent:
-    - {fileID: 11400000, guid: 25fb210cb81d06640b4b45043b6ef83e, type: 2}
-    - {fileID: 11400000, guid: 59ab4ed0ce562004481dab7fa1a70b1f, type: 2}
+    - {fileID: 11400000, guid: ca43708b1b348244d94df93f25d2bb37, type: 2}
+    - {fileID: 11400000, guid: 99ac9e3f31c409b45beb791b774839e1, type: 2}
   - nextScene: 0
     ordersToUp: 2
     progressOrders:
-    - {fileID: 11400000, guid: 8e544f2f0d3d4ef428f0234530b66357, type: 2}
+    - {fileID: 11400000, guid: 8849d7722ec27df4692c50598ecba2c3, type: 2}
     - {fileID: 11400000, guid: 9d150ff63feb35c46a576c1797f2268d, type: 2}
     progressContent:
-    - {fileID: 11400000, guid: 240b992f9f6969948a021b59d8d21d91, type: 2}
-    - {fileID: 11400000, guid: 6faa621e1df424249b52f28be3f0c341, type: 2}
+    - {fileID: 11400000, guid: 59ab4ed0ce562004481dab7fa1a70b1f, type: 2}
+    - {fileID: 11400000, guid: 25fb210cb81d06640b4b45043b6ef83e, type: 2}
   - nextScene: 1
-    ordersToUp: 3
+    ordersToUp: 2
     progressOrders:
-    - {fileID: 11400000, guid: 8e544f2f0d3d4ef428f0234530b66357, type: 2}
-    - {fileID: 11400000, guid: 9d150ff63feb35c46a576c1797f2268d, type: 2}
-    - {fileID: 11400000, guid: 9d150ff63feb35c46a576c1797f2268d, type: 2}
+    - {fileID: 11400000, guid: 16e50ce1d87214f4aa753c5685fcf810, type: 2}
+    - {fileID: 11400000, guid: cae818af91dce8c499336c61b7641c77, type: 2}
     progressContent:
-    - {fileID: 11400000, guid: 7d3f35d7577956746acda2a37dd7ee91, type: 2}
+    - {fileID: 11400000, guid: ec9387b4f42cace4aa17fe93ae7b20a4, type: 2}
+  - nextScene: 0
+    ordersToUp: 2
+    progressOrders:
+    - {fileID: 11400000, guid: 24d54f6302acd6843bc5934dc583fe38, type: 2}
+    - {fileID: 11400000, guid: cae818af91dce8c499336c61b7641c77, type: 2}
+    progressContent:
+    - {fileID: 11400000, guid: 6faa621e1df424249b52f28be3f0c341, type: 2}
+    - {fileID: 11400000, guid: 240b992f9f6969948a021b59d8d21d91, type: 2}
+  - nextScene: 1
+    ordersToUp: 99
+    progressOrders: []
+    progressContent:
     - {fileID: 11400000, guid: 7f328829e54e4454bac5c8a4de8e8c03, type: 2}
+    - {fileID: 11400000, guid: 7d3f35d7577956746acda2a37dd7ee91, type: 2}

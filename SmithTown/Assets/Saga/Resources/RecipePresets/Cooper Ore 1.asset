@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6408ad448266aa749b542f8955d123a7, type: 3}
   m_Name: Cooper Ore 1
   m_EditorClassIdentifier: 
-  duration: 3
+  duration: 30
   price: []
   reward:
   - preset: {fileID: 11400000, guid: cdcae697574aaaf4d8a54fda88f54574, type: 2}

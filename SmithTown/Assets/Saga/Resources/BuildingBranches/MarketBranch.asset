@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildingLevels:
   - {fileID: 11400000, guid: ca43708b1b348244d94df93f25d2bb37, type: 2}
+  - {fileID: 11400000, guid: ec9387b4f42cace4aa17fe93ae7b20a4, type: 2}
