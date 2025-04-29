@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e41d8865bc38e46b1d118857e7adfe, type: 3}
+  m_Name: Money Sword
+  m_EditorClassIdentifier: 
+  label: Exquisite expensive sword
+  description: "In the morning, when the forge had not yet warmed up from the coals,
+    a rider on a black horse rode up to it. The armored harness on the animal gleamed,
+    and the rider himself was dressed in a traveling, but obviously expensive waistcoat.
+    He dismounted slowly, as if time belonged to him, and spoke with a slight smile:\r\n\r\n\u201CI
+    need a sword. Special. So that it not only cuts, but also speaks for me. Exquisite.
+    Expensive. Such that it would be recognized at first sight.\u201D\r\n\r\nHe spoke
+    of the blade as if it were a jewel: a thin blade with an engraving, a guard in
+    the form of spread wings, decorated with precious stones. The handle is made
+    of rare wood, balanced, with a chasing on the pommel. The sword is not for combat
+    - for status, for legends, for those who know how to wear a weapon as an extension
+    of their own name."
+  sprite: {fileID: -269882660, guid: 802a57e5757da374da9b6160f7319e18, type: 3}
+  target:
+  - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
+    amount: 50
+  - preset: {fileID: 11400000, guid: ed01aeb185cdd1148bfddc5fb652e79a, type: 2}
+    amount: 5
+  - preset: {fileID: 11400000, guid: cdcae697574aaaf4d8a54fda88f54574, type: 2}
+    amount: 50
+  - preset: {fileID: 11400000, guid: 5b084c5aaf1af644badeb65a67d8b199, type: 2}
+    amount: 5

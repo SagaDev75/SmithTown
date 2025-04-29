@@ -10,10 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6408ad448266aa749b542f8955d123a7, type: 3}
-  m_Name: Coal 1
+  m_Name: Cooper 3
   m_EditorClassIdentifier: 
-  duration: 3
-  price: []
-  reward:
+  duration: 8
+  price:
   - preset: {fileID: 11400000, guid: ed01aeb185cdd1148bfddc5fb652e79a, type: 2}
+    amount: 1
+  - preset: {fileID: 11400000, guid: cdcae697574aaaf4d8a54fda88f54574, type: 2}
+    amount: 1
+  reward:
+  - preset: {fileID: 11400000, guid: 5b084c5aaf1af644badeb65a67d8b199, type: 2}
     amount: 1

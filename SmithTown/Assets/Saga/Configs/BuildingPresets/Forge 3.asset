@@ -10,13 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4335902dd1536954388d9e2f85081ab5, type: 3}
-  m_Name: Mine 1
+  m_Name: Forge 3
   m_EditorClassIdentifier: 
   icon: {fileID: -938816330, guid: b73542ee36f542042bc8a21ec62adcf9, type: 3}
   prefab: {fileID: 267209413086899662, guid: b33c760e5d8f7e84dbd61bb872ad18d1, type: 3}
   price:
   - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
-    amount: 3
+    amount: 15
+  - preset: {fileID: 11400000, guid: 5b084c5aaf1af644badeb65a67d8b199, type: 2}
+    amount: 5
+  - preset: {fileID: 11400000, guid: c4dbd11a1e7561249894c0856c3a6355, type: 2}
+    amount: 5
   recipes:
-  - {fileID: 11400000, guid: cfa79d35db0d18341bd9beeaed9b3f61, type: 2}
-  - {fileID: 11400000, guid: 11a7038b41771854bbf85ad5d1da3f56, type: 2}
+  - {fileID: 11400000, guid: bdb4d6cf0e3fcbe4eb83e98346f67111, type: 2}
+  - {fileID: 11400000, guid: b9fbb7f79188929488994ef8f04ccdef, type: 2}

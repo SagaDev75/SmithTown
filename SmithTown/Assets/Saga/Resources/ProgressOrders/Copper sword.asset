@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e41d8865bc38e46b1d118857e7adfe, type: 3}
+  m_Name: Copper sword
+  m_EditorClassIdentifier: 
+  label: Copper Sword
+  description: "A man in a grey cloak entered the forge under the sound of rain.
+    At first, only a silhouette on the threshold was visible, but as he came closer,
+    it became clear that an empty scabbard was hanging at his side. He took off his
+    hood and spoke in a low, calm voice:\r\n\r\n\u201CI need a copper sword. Light,
+    without frills. So that I could wear it every day, but in case of need, I could
+    stand up for myself.\u201D\r\n\r\nThe sword should be simple, but reliable -
+    with a straight blade, a comfortable guard and a leather-wrapped hilt. No decorations,
+    no extra weight. Just what is really needed."
+  sprite: {fileID: -4289702, guid: 802a57e5757da374da9b6160f7319e18, type: 3}
+  target:
+  - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
+    amount: 5
+  - preset: {fileID: 11400000, guid: a7f18c6dbd37b60458317927bc9f17f2, type: 2}
+    amount: 5
+  - preset: {fileID: 11400000, guid: 5b084c5aaf1af644badeb65a67d8b199, type: 2}
+    amount: 5

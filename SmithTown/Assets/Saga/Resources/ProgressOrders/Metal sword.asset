@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e41d8865bc38e46b1d118857e7adfe, type: 3}
+  m_Name: Metal sword
+  m_EditorClassIdentifier: 
+  label: Quick metal sword
+  description: 'In the middle of the day, when it was dry and hot outside, a young
+    fighter ran into the forge - light armor, a sling across his chest, and dust
+    and haste on his face. He hardly stopped, just took a quick look and said quickly,
+    to the point:
+
+    
+
+    - I need a sword. Iron. Light and fast. I am not armored,
+    speed is more important to me than strength.
+
+    
+
+    He spoke like someone
+    who is used to dodging, not blocking. Such a sword should be narrow, elongated,
+    with an emphasis on balance and the sharpness of the blow. Minimum weight, maximum
+    control - to deliver a series of blows without losing maneuverability. The handle
+    is without excess, the guard is compact but reliable.'
+  sprite: {fileID: -77980920, guid: 802a57e5757da374da9b6160f7319e18, type: 3}
+  target:
+  - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
+    amount: 10
+  - preset: {fileID: 11400000, guid: 5b084c5aaf1af644badeb65a67d8b199, type: 2}
+    amount: 15
+  - preset: {fileID: 11400000, guid: c4dbd11a1e7561249894c0856c3a6355, type: 2}
+    amount: 5

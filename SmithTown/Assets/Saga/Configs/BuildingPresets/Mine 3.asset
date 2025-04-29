@@ -17,3 +17,11 @@ MonoBehaviour:
   price:
   - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
     amount: 7
+  - preset: {fileID: 11400000, guid: 5b084c5aaf1af644badeb65a67d8b199, type: 2}
+    amount: 5
+  - preset: {fileID: 11400000, guid: c4dbd11a1e7561249894c0856c3a6355, type: 2}
+    amount: 3
+  recipes:
+  - {fileID: 11400000, guid: c991ed6cf5702364d8b521804a8b18cb, type: 2}
+  - {fileID: 11400000, guid: ae7cae4b2ed77ef43a5113d94634d7a9, type: 2}
+  - {fileID: 11400000, guid: d9a2f3b0103e1ac4ab7a76636b32ed3d, type: 2}

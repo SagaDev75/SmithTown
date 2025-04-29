@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e41d8865bc38e46b1d118857e7adfe, type: 3}
+  m_Name: Wooden sword
+  m_EditorClassIdentifier: 
+  label: Wooden sword
+  description: "A young wanderer emerged from a dusty road winding through the hills.
+    Dressed in a tattered cloak and carrying a knapsack, he looked around cautiously
+    before entering the forge. As he approached, he spoke quietly, as if afraid of
+    being overheard:\r\n\r\n\u201CI need a wooden sword\u2026 For training,\u201D
+    he said, avoiding my eyes. \u201CNot a combat one, just to get my hand in.\u201D"
+  sprite: {fileID: 507811368, guid: 802a57e5757da374da9b6160f7319e18, type: 3}
+  target:
+  - preset: {fileID: 11400000, guid: a7f18c6dbd37b60458317927bc9f17f2, type: 2}
+    amount: 15

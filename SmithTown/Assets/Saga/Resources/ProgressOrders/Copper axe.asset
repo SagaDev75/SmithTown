@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e41d8865bc38e46b1d118857e7adfe, type: 3}
+  m_Name: Copper axe
+  m_EditorClassIdentifier: 
+  label: Copper Axe
+  description: 'A hunter looked into the forge - tall, with a wrinkled face and a
+    look as sharp as a knife blade. An empty quiver dangled from his back, and a
+    knife in a worn sheath hung from his belt. He took off his hood and, without
+    wasting words, said:
+
+    
+
+    - I need a copper axe. Not a combat one. For
+    the forest. To chop branches, and firewood for the camp.
+
+    
+
+    You looked
+    closely at his hands - strong, with calluses, clearly familiar with the tool.
+    Such a person will not tolerate poor quality work. The blade must be sharp, the
+    handle comfortable, and the balance - accurate, like a shot from a bow.'
+  sprite: {fileID: 639203042, guid: 802a57e5757da374da9b6160f7319e18, type: 3}
+  target:
+  - preset: {fileID: 11400000, guid: ed01aeb185cdd1148bfddc5fb652e79a, type: 2}
+    amount: 5
+  - preset: {fileID: 11400000, guid: 5b084c5aaf1af644badeb65a67d8b199, type: 2}
+    amount: 5

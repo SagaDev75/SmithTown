@@ -7,7 +7,7 @@ namespace Saga.ProgressSystem
     public class ProgressOrder : ScriptableObject
     {
         [SerializeField] private string label;
-        [SerializeField] private string description;
+        [SerializeField, TextArea] private string description;
         [SerializeField] private Sprite sprite;
         [SerializeField] private ResourceInfo[] target;
         

@@ -9,14 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74e41d8865bc38e46b1d118857e7adfe, type: 3}
-  m_Name: ProgressOrder 1
+  m_Script: {fileID: 11500000, guid: 6408ad448266aa749b542f8955d123a7, type: 3}
+  m_Name: Cooper Ore 2
   m_EditorClassIdentifier: 
-  label: 123
-  description: 3123
-  sprite: {fileID: -569161257, guid: b73542ee36f542042bc8a21ec62adcf9, type: 3}
-  target:
-  - preset: {fileID: 11400000, guid: ed01aeb185cdd1148bfddc5fb652e79a, type: 2}
-    amount: 5
+  duration: 3
+  price: []
+  reward:
   - preset: {fileID: 11400000, guid: cdcae697574aaaf4d8a54fda88f54574, type: 2}
-    amount: 5
+    amount: 2

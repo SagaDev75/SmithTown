@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e41d8865bc38e46b1d118857e7adfe, type: 3}
+  m_Name: Copper shield
+  m_EditorClassIdentifier: 
+  label: Copper Shield
+  description: 'The creaking of wheels came from behind the threshold - a cart pulled
+    up to the forge. A heavy merchant with an intricate amulet around his neck jumped
+    down from it with difficulty. He wiped the sweat from his forehead and, without
+    wasting time, began to speak:
+
+
+
+    - Lately, it is impossible to leave the
+    road to the south without protection. Bandits, animals... I want a shield. Copper.
+    Reliable, so that it will reflect blows and inspire confidence.
+
+
+
+    You examined
+    it. Copper is not steel, but in skilled hands, even it can be made into a strong
+    shield.'
+  sprite: {fileID: -977719006, guid: 802a57e5757da374da9b6160f7319e18, type: 3}
+  target:
+  - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
+    amount: 5
+  - preset: {fileID: 11400000, guid: a7f18c6dbd37b60458317927bc9f17f2, type: 2}
+    amount: 5
+  - preset: {fileID: 11400000, guid: cdcae697574aaaf4d8a54fda88f54574, type: 2}
+    amount: 5

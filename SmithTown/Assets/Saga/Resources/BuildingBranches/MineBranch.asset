@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b01ae6e2af056b349bd923e98c39ac53, type: 3}
-  m_Name: MineBrach 2
+  m_Name: MineBranch
   m_EditorClassIdentifier: 
   buildingLevels:
   - {fileID: 11400000, guid: 59ab4ed0ce562004481dab7fa1a70b1f, type: 2}

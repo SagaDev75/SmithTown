@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e41d8865bc38e46b1d118857e7adfe, type: 3}
+  m_Name: Metal Hammer
+  m_EditorClassIdentifier: 
+  label: Metal Hammer
+  description: 'Late in the evening, a miner looked into the forge - broad-shouldered,
+    with soot on his face and a heavy gait. He took off his knapsack and leaned on
+    the edge of the table, breathing heavily, as if he had just come out of the mine.
+
+    
+
+    -
+    I need a hammer. A metal one, all of it. Wood doesn''t live in a mine - it rots
+    and cracks. And I need it to hold. For a long time.
+
+    
+
+    He wasn''t talking
+    about a weapon, but about a real tool - a massive head, all-metal construction,
+    a minimum of seams. The handle is wrapped in leather for a better grip, the weight
+    is shifted closer to the center to reduce recoil. A tool created for work underground,
+    in stone and darkness.'
+  sprite: {fileID: 885892407, guid: 802a57e5757da374da9b6160f7319e18, type: 3}
+  target:
+  - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
+    amount: 10
+  - preset: {fileID: 11400000, guid: cdcae697574aaaf4d8a54fda88f54574, type: 2}
+    amount: 30
+  - preset: {fileID: 11400000, guid: c4dbd11a1e7561249894c0856c3a6355, type: 2}
+    amount: 10
