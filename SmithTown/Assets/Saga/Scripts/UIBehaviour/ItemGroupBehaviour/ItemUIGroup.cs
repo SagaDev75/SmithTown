@@ -9,6 +9,8 @@ namespace Saga.UIBehaviour.ItemGroupBehaviour
         [SerializeField] private ItemWidget itemWidget;
         public void ShowItems(params IItem[] items)
         {
+            Clear();
+            
             foreach (var item in items)
             {
                 CreateWidget(item);
@@ -16,6 +18,8 @@ namespace Saga.UIBehaviour.ItemGroupBehaviour
         }
         public void ShowItems<T>(params T[] items) where T : IItem
         {
+            Clear();
+            
             foreach (var item in items)
             {
                 CreateWidget(item);
@@ -23,6 +27,8 @@ namespace Saga.UIBehaviour.ItemGroupBehaviour
         }
         public void ShowItems<T>(UnityEvent<T> callback, params T[] items) where T : IItem
         {
+            Clear();
+            
             foreach (var item in items)
             {
                 var widget = CreateWidget(item);
@@ -32,7 +38,7 @@ namespace Saga.UIBehaviour.ItemGroupBehaviour
         }
         public void Clear()
         {
-            foreach (Transform child in container.transform)
+            foreach (Transform child in container)
             {
                 Destroy(child.gameObject);
             }

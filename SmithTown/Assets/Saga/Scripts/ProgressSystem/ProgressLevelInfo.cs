@@ -3,9 +3,11 @@ using System;
 namespace Saga.ProgressSystem
 {
     [Serializable]
-    public struct ProgressRewardInfo
+    public struct ProgressLevelInfo
     {
         public bool nextScene;
+        public int ordersToUp;
+        public ProgressOrder[] progressOrders;
         public ProgressContent[] progressContent;
     }
 }

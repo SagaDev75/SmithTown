@@ -7,7 +7,6 @@ namespace Saga.ProgressSystem
     {
         public int level;
         public int progress;
-        public int progressMax;
     }
 }
 

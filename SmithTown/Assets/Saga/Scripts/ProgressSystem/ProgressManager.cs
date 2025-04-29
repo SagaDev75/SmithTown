@@ -7,45 +7,34 @@ namespace Saga.ProgressSystem
 {
     public class ProgressManager : MonoSessionService<ProgressManager>
     {
-        [SerializeField] private ProgressRewardInfo[] rewards;
-
+        [SerializeField] private ProgressLevelInfo[] levelInfo;
         public static int Level { get; private set; } = 0;
         public static int Progress { get; private set; } = 0;
-        public static int ProgressMax { get; private set; } = 1;
 
-        public static event Action<ProgressInfo> OnProgress;
+        public static ProgressLevelInfo CurrentLevelInfo => Singleton.levelInfo[Level];
+        public static event Action<ProgressLevelInfo> OnProgress;
+        public static event Action<ProgressLevelInfo> OnLevelUp;
         
         public static void GetProgress()
         {
             Progress++;
-            if (Progress >= ProgressMax)
+            
+            if (Progress >= CurrentLevelInfo.ordersToUp)
             {
                 Level++;
                 Progress = 0;
-                ProgressMax = CalcProgressMax(Level);
                 OpenContent(Level);
+                OnLevelUp?.Invoke(CurrentLevelInfo);
             }
             
-            OnProgress?.Invoke(CollectProgressInfo());
-        }
-        private static int CalcProgressMax(int level)
-        {
-            return level + 1;
-        }
-        private static ProgressInfo CollectProgressInfo()
-        {
-            return new ProgressInfo()
-            {
-                level = Level,
-                progress = Progress,
-                progressMax = ProgressMax,
-            };
+            OnProgress?.Invoke(CurrentLevelInfo);
         }
         private static void OpenContent(int level)
         {
-            foreach (var content in Singleton.rewards[level].progressContent)
+            foreach (var content in Singleton.levelInfo[level].progressContent)
             {
                 content.Unbloked = true;
+                Debug.Log(content.name);
             }
         }
         private static void RestoreAllProgressContent(int level)
@@ -56,15 +45,26 @@ namespace Saga.ProgressSystem
             }
         }
 
+        protected override void Start()
+        {
+            base.Start();
+            OpenContent(0);
+        }
+
+
         protected override void OnDataCollecting(SessionData data)
         {
-            data.progressInfo = CollectProgressInfo();
+            data.progressInfo = new ProgressInfo
+            {
+                level = Level,
+                progress = Progress,
+            };
         }
         protected override void OnDataUpdating(SessionData data)
         {
             Level = data.progressInfo.level;
             Progress = data.progressInfo.progress;
-            RestoreAllProgressContent(ProgressMax);
+            RestoreAllProgressContent(Level);
         }
     }
 }

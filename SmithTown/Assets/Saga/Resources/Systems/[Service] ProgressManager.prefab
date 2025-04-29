@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1743095166490359335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5505609356285268341}
+  - component: {fileID: 4386757504999589760}
+  m_Layer: 0
+  m_Name: '[Service] ProgressManager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5505609356285268341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743095166490359335}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4386757504999589760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743095166490359335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a74af3bbf66f7842a801242c77caea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelInfo:
+  - nextScene: 0
+    ordersToUp: 1
+    progressOrders:
+    - {fileID: 11400000, guid: 8849d7722ec27df4692c50598ecba2c3, type: 2}
+    progressContent:
+    - {fileID: 11400000, guid: 25fb210cb81d06640b4b45043b6ef83e, type: 2}
+    - {fileID: 11400000, guid: 59ab4ed0ce562004481dab7fa1a70b1f, type: 2}
+  - nextScene: 0
+    ordersToUp: 2
+    progressOrders:
+    - {fileID: 11400000, guid: 8e544f2f0d3d4ef428f0234530b66357, type: 2}
+    - {fileID: 11400000, guid: 9d150ff63feb35c46a576c1797f2268d, type: 2}
+    progressContent:
+    - {fileID: 11400000, guid: 240b992f9f6969948a021b59d8d21d91, type: 2}
+    - {fileID: 11400000, guid: 6faa621e1df424249b52f28be3f0c341, type: 2}
+  - nextScene: 1
+    ordersToUp: 3
+    progressOrders:
+    - {fileID: 11400000, guid: 8e544f2f0d3d4ef428f0234530b66357, type: 2}
+    - {fileID: 11400000, guid: 9d150ff63feb35c46a576c1797f2268d, type: 2}
+    - {fileID: 11400000, guid: 9d150ff63feb35c46a576c1797f2268d, type: 2}
+    progressContent:
+    - {fileID: 11400000, guid: 7d3f35d7577956746acda2a37dd7ee91, type: 2}
+    - {fileID: 11400000, guid: 7f328829e54e4454bac5c8a4de8e8c03, type: 2}
