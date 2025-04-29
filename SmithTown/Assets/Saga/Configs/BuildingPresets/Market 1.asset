@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4335902dd1536954388d9e2f85081ab5, type: 3}
   m_Name: Market 1
   m_EditorClassIdentifier: 
-  icon: {fileID: -33558096, guid: 4badee5c0ea056946987e6e23c3de459, type: 3}
-  prefab: {fileID: 919132149155446097, guid: 821015a023bdd0c4f8c6e61b6586edb3, type: 3}
+  icon: {fileID: 21300000, guid: 14e6bd1c01c5e1342be01d90dba7b878, type: 3}
+  prefab: {fileID: 902268789716176153, guid: 9cfd153dee55f8c4aa180b2e329a573f, type: 3}
   price: []
   recipes:
   - {fileID: 11400000, guid: c0f86838697ca5e498e67e04e53c52d7, type: 2}

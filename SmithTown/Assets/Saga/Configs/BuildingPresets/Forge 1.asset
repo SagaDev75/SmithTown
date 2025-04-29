@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4335902dd1536954388d9e2f85081ab5, type: 3}
   m_Name: Forge 1
   m_EditorClassIdentifier: 
-  icon: {fileID: -938816330, guid: b73542ee36f542042bc8a21ec62adcf9, type: 3}
-  prefab: {fileID: 267209413086899662, guid: b33c760e5d8f7e84dbd61bb872ad18d1, type: 3}
+  icon: {fileID: 21300000, guid: 11c3817eb56e5c746a86ff9db586b0a5, type: 3}
+  prefab: {fileID: 2812034072196751613, guid: e59593b5d04fc394684c92605d1424bb, type: 3}
   price:
   - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
     amount: 3

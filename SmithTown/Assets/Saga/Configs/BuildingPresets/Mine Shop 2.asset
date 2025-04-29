@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4335902dd1536954388d9e2f85081ab5, type: 3}
+  m_Name: Mine Shop 2
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 407929a08f8a9714785bf64bd8b1810b, type: 3}
+  prefab: {fileID: 7579794933484169881, guid: 2399374bb16cd6d4b833d9a1a68c8d2a, type: 3}
+  price:
+  - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
+    amount: 5
+  - preset: {fileID: 11400000, guid: 5b084c5aaf1af644badeb65a67d8b199, type: 2}
+    amount: 2
+  recipes:
+  - {fileID: 11400000, guid: 73360c1aa69ea5448acab1921645b81d, type: 2}
+  - {fileID: 11400000, guid: e755d2bb7376320409a5db8884e8398a, type: 2}
+  - {fileID: 11400000, guid: 057087703f042fd4b8c678f62ac5efb2, type: 2}

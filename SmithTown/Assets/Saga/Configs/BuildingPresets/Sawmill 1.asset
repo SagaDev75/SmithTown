@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4335902dd1536954388d9e2f85081ab5, type: 3}
   m_Name: Sawmill 1
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: bd17d54e7f0e514479960b90e7715edd, type: 3}
-  prefab: {fileID: 919132149155446097, guid: 8a0da4ad7bc1e8347962e57617420844, type: 3}
+  icon: {fileID: 21300000, guid: 795def8c7798412459b6af30fadcee4b, type: 3}
+  prefab: {fileID: 2787701951593716214, guid: 08e547763770d434dbdf94ce10d95f9a, type: 3}
   price:
   - preset: {fileID: 11400000, guid: 332dc901c45c69045b04d958ea4d82a5, type: 2}
     amount: 3

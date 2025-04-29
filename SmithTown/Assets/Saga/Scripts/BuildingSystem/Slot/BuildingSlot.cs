@@ -39,7 +39,8 @@ namespace Saga.BuildingSystem.Slot
                 settings.SetDestroyLogic(
                     SetBuilding,
                     _ => OpenMenu(), 
-                    _ => settings.CloseScreen());
+                    _ => settings.CloseScreen(),
+                    _ => slotWorkshop.recipeInfo = new RecipeInfo());
                 settings.SetRecipeProgress(slotWorkshop.recipeInfo);
 
                 if (_buildingInfo.TryGetPreset(out var preset))

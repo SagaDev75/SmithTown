@@ -19,7 +19,6 @@ namespace Saga.GameSession.Session
         }
         
         private static IDataServiceAsync DataService { get; set; }
-        public static SettingsData Data { get; private set; } = new();
         
         public static event Action<DataPhase> OnPhase;
         
